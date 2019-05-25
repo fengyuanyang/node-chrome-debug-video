@@ -4,3 +4,4 @@ USER root
 COPY ./selenium.conf /etc/supervisor/conf.d
 # Jars to start selenium grid and video
 COPY ./record_jars /
+USER seluser
